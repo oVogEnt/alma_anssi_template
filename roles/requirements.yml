@@ -1,0 +1,22 @@
+---
+- name: role_openscap
+  src: https://github.com/owen282000/role_openscap.git
+  scm: git
+  version: main
+- name: anssi_bp28_minimal
+  src: https://github.com/RedHatOfficial/ansible-role-rhel9-anssi_bp28_minimal.git
+  scm: git
+  version: main
+- name: anssi_bp28_intermediary
+  src: https://github.com/RedHatOfficial/ansible-role-rhel9-anssi_bp28_intermediary.git
+  scm: git
+  version: main
+- name: anssi_bp28_high
+  src: https://github.com/RedHatOfficial/ansible-role-rhel9-anssi_bp28_high.git
+  scm: git
+  version: main
+- name: anssi_bp28_enhanced
+  src: https://github.com/RedHatOfficial/ansible-role-rhel9-anssi_bp28_enhanced.git
+  scm: git
+  version: main
+...

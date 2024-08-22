@@ -1,0 +1,6 @@
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
+    alma:
+      ansible_host: your_vm_ip_address

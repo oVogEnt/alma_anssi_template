@@ -1,0 +1,9 @@
+---
+- name: Apply ANSSI recommendations
+  hosts: alma
+  roles:
+    - anssi_bp28_minimal
+#    - anssi_bp28_intermediary
+#    - anssi_bp28_high
+#    - anssi_bp28_enhanced
+    - role_openscap

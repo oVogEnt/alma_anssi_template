@@ -1,0 +1,6 @@
+ssg_profile: "xccdf_org.ssgproject.content_profile_anssi_bp28_minimal"
+#ssg_profile: "xccdf_org.ssgproject.content_profile_anssi_bp28_intermediary"
+#ssg_profile: "xccdf_org.ssgproject.content_profile_anssi_bp28_high"
+#ssg_profile: "xccdf_org.ssgproject.content_profile_anssi_bp28_enhanced"
+ensure_redhat_gpgkey_installed: false
+report_directory: "."
